@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1250px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to right,#025859,#009EA0 );
+    margin-top: 0;
+    margin-left: 0;
+    
+    position: fixed;
+    
+    box-shadow: 0px 0px 27px 1px;
+
+    border: none;
+    
+}
+ul{
+    list-style-type: none;
+}
+.kanan{
+    float: left;
+    line-height: 30px;
+    padding-right: 2em;
+    margin-top: 14px;
+}
+
+.logo{
+    margin-right: 1em;
+    margin-left: 3em;
+    color: white;
+    font-size: 20px;
+}
+.kiri{
+    float: right;
+    line-height: 30px;
+    color: white;
+    margin-right: 2em;
+    margin-top: 14px;
+}
+
+.Register{
+    margin-right: 6em;
+    float: right;
+    line-height: 2em;
+    color: white;
+    background-color: #065757;
+    
+}
+.Register{
+    margin: 0;
+    padding: 0;
+}
+.Register::before,
+.Register::after {
+    content: "";
+    display: table;
+}
+.Register::after{
+    clear: both;
+}
+.Register{
+    margin-right: 2em;
+    margin-top: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 2em;
+    
+}
+.Register:hover{
+    box-shadow: 1px 1px 13px -4px black;
+    border: 1.5px solid white;
+    background-color: #098c8c;
+}
+
+.menuu{
+    width: 3em;
+    height: 43px;
+    float: right;
+    margin-right: 3em;
+    margin-top: 8px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+<!--TULISAN DARI GOOGLE-->
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 390;
+    font-style: normal;
+}
+.patrick{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    color: #026364;
+    font-size: 35px;
+    margin-top: 1em;
+}
+.bagian-atas{
+    margin-top: 0em;
+    width: 100%;
+    height: 32em;
+   
+    padding-bottom: 4em;
+
+}
+.bagian-atas-kiri{
+    margin-left: 3em;
+    margin-right: 1em;
+    margin-top: 5em;
+    width: 30em;
+    height: 30em;
+    float: left;
+}
+
+.bagian-atas-kanan{
+    float: right;
+
+}
+.bagian-atas-kanan{
+    margin: 0;
+    padding: 0;
+}
+.bagian-atas-kanan::before,
+.bagian-atas-kanan::after {
+    content: "";
+    display: table;
+}
+.bagian-atas-kanan::after{
+    clear: both;
+}
+.bagian-atas-kanan{
+    width: 44em;
+    padding-top: 5em;
+    height: 27em;
+    margin-top: 3em;
+    margin-left: 0px;
+    margin-right: 0em;
+    
+    
+}
+
+.isi_konten{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    width: 100%;
+    margin-top: 3em;
+    
+}
+.comunitas{
+    background-color: #009EA0;
+    border-radius: 4px;
+    display: table;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 4em;
+    margin-bottom: 8em;
+    
+}
+.comunitas:hover{
+    box-shadow: 1px 1px 16px -2px black;
+    background-color: #14b2b2;
+}
+.bagian_gambar{
+    background-image: url(./icon/bagain_4_isi.png);
+    height: 30em;
+    background-size: 45em;
+    background-repeat: no-repeat;
+    margin-top: 6em;
+    margin-left: 16em;
+}
+.ubah_gambar{
+    height: 80px;
+    width: 5em;
+    margin-left: 64px;
+}
+.belakang_orange{
+    width: 13em;
+    height: 20em;
+    background-color: RGB(245, 242, 225,0.93);
+    float: left;
+    margin: 8em 1em;
+}
+.ubah_tulisan{
+    font-size: 18px;
+    margin-top: 1em;
+    color: #025859;
+    text-align: center;
+}
+.tambah1{
+    margin-left: -13em;
+}
+.ubah_artikel{
+    margin-top: 1em;
+    font-size: 16px;
+    color: #024647;
+    text-align: left;
+    margin-left: 7px;
+}
+.bagian2{
+    width: 76em;
+    height: 29em;
+    margin-top: 9em;
+    margin-left: 1em;
+    background-color: white;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border: 1px solid black;
+    
+
+}
+.bagian2:hover{
+    box-shadow: 0px 0px 27px -5px black;
+
+}
+.gambar_berjalan{
+    width: 27em;
+    height: 23em;
+    border-radius: 10em;
+}
+
+.berjalan_kiri{
+    float: right;
+}
+.berjalan_kiri{
+    margin: 0;
+    padding: 0;
+}
+.berjalan_kiri::before,
+.berjalan_kiri::after {
+    content: "";
+    display: table;
+}
+.berjalan_kiri::after{
+    clear: both;
+}
+.berjalan_judul{
+    color: #024647;
+    margin-left: 3em ;
+    margin-top: 4em;
+    font-size: 27px;
+}
+.gambar_isi{
+    margin-top: 1em;
+    font-size: 19px;
+}
+.berjalan_kiri{
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+
+
+.berjalan_kiri2{
+    float: left;
+}
+.berjalan_kiri2{
+    margin: 0;
+    padding: 0;
+}
+.berjalan_kiri2::before,
+.berjalan_kiri2::after {
+    content: "";
+    display: table;
+}
+.berjalan_kiri2::after{
+    clear: both;
+}
+.berjalan_kiri2{
+    margin-top: 5em;
+    margin-left: 1em;
+}
+.bagian3{
+    width: 76em;
+    height: 29em;
+    margin-top: 9em;
+    margin-left: 1em;
+    background-color: white;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border: 1px solid black;
+    
+
+}
+.bagian3:hover{
+    box-shadow: 0px 0px 27px -5px black;
+
+}
+.penjelasan_tentang{
+    border-radius: 20px;
+    width: 100%;
+    height: 27em;
+    margin-left: 6px;
+    margin-top: 10em;   
+    padding: 3em 0em;
+    border: 1px solid rgb(75, 74, 74);
+    background-image: url(./icon/orang_dengankota.jpg);
+    background-position: center;
+    background-size:110em;
+    background-repeat: no-repeat;
+
+}
+
+
+.penjelasan_dalam{
+    float: left;
+    width: 4em;
+    height: 15em;
+   background-color: rgb(0, 0, 0);
+}
+.penjelasan_dalam{
+    margin: 0;
+    padding: 0;
+}
+.penjelasan_dalam::before,
+.penjelasan_dalam::after {
+    content: "";
+    display: table;
+}
+.penjelasan_dalam::after{
+    clear: both;
+}
+.penjelasan_dalam{
+    background-color: #fffffffb;
+    border: 1px solid rgb(176, 175, 175);
+    width: 12em;
+    height: 24em;
+    margin: 1em 3em;
+    
+}
+.penjelasan_dalam:hover{
+    box-shadow: 0px 0px 40px 2px #7ac375;
+    
+}
+.penjelasan_dalam1{
+    margin-left: 14em;
+}
+.penjelasan_dalam1:hover{
+    box-shadow: 0px 0px 40px 2px #6cc666;
+    
+}
+.penjelasan_dalam2{
+    margin-top: 3em;
+    width: 14em;
+    height: 25em;
+}
+.penjelasan_dalam2:hover{
+    box-shadow: 0px 0px 40px 2px #7ac375;
+    
+}
+.penjelasan_dalam-gambar{
+    width: 15em;
+    height: 14em;
+    margin-top: -5em;
+    margin-left: -23px;
+}
+.penjelasan_dalam-gambar1{
+    width: 12em;
+    height: 12em;
+    margin-top: -3em;
+    margin-left: -2px;
+}
+.penjelasan_dalam-gambar0{
+    width: 15em;
+    height: 14em;
+    margin-top: -5em;
+    margin-left: -8px;
+}
+hr{
+ margin-top: -1em;
+}
+.garis_biru{
+    width: 100%;
+    height: 1em;
+    background-color: #1F4167;
+    color: white;
+    text-align: center;
+    line-height: 1em;
+}
+.penjelasan_judull{
+    color: #1F4167;
+    text-align: center;
+    margin-top:1em;
+}
+.artikel_satu{
+    font-size: 14px;
+    margin: 1em 1em;
+    text-align: justify;
+}
+.selain_satu{
+    font-size: 13px;
+    margin: 1em 1em;
+    text-align: justify;
+}
+footer{
+    padding-top: 40em;
+    margin-left: 1px;
+    margin-bottom: 1em;
+    background-color: white;
+    border:1px solid #717272;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    max-width: 1280px;
+    height: 26em;
+}
+.isi_artikel_footer{
+    margin-left: 5em;
+}
+.jdl_artikel_footer{
+    font-weight: bold;
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.jdl_artikel_footer1{
+    font-weight: bold;
+    margin-top: 6em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+.isi_artikel_footer1{
+    margin-left: 19em;
+    margin-top: -2em;
+}
+.jdl_artikel_footer2{
+    float: right;
+    margin-right: 473px;
+    margin-top: -14em;
+}
+.isi_artikel_footer2{
+    float: right;
+    margin-top: -12em;
+    margin-right: 27em;
+}
+.zero_bawah{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 15px;
+
+}
+.isi_artikel_footer3{
+    float: right;
+    margin-top: -14em;
+    margin-right: 17em;
+
+}
+.jdl_artikel_footer3{
+    font-weight: bold;
+    float: right;
+    margin-right: 21em;
+    margin-top: -16em;
+}
+.masukkan_email_bawah{
+    background-color: rgb(226, 226, 226);
+    display: table;
+    width: 12em;
+    height: 2em;
+    line-height: 3em;
+    padding-left: 1em;
+    margin-left: 45em;
+    margin-top: -3em;
+    color: rgb(139, 138, 138);
+}
+.untuk_tombol_nya{
+    color: white;
+    background-color: #009EA0;
+    display: table;
+    padding: 13px 15px;
+    border-radius: 7px;
+    float: right;
+    margin-right: 10em;
+    margin-top: -3em;
+}
+.copyright{
+    text-align: center;
+    padding-top: 3em;
+}

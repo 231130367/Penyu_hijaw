@@ -1,0 +1,265 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f4f4;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to right, #025859, #009EA0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.3);
+} 
+
+ul{
+    list-style-type: none;
+}
+
+.kanan {
+    float: left;
+    line-height: 60px; 
+    padding-right: 2em;
+    margin-top: 0; 
+}
+
+.logo{
+    font-family:'Roboto Slab';
+    margin-right: 1em;
+    margin-left: 3em;
+    color: white;
+    font-size: 20px;
+}
+.kiri{
+    float: right;
+    line-height: 30px;
+    color: white;
+    margin-right: 2em;
+    margin-top: 14px;
+}
+
+.Register{
+    margin-right: 6em;
+    float: right;
+    line-height: 2em;
+    color: white;
+    background-color: #065757;
+    
+}
+.Register{
+    margin: 0;
+    padding: 0;
+}
+.Register::before,
+.Register::after {
+    content: "";
+    display: table;
+}
+.Register::after{
+    clear: both;
+}
+.Register{
+    margin-right: 2em;
+    margin-top: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 2em;
+    
+}
+.Register:hover{
+    box-shadow: 1px 1px 13px -4px black;
+    border: 1.5px solid white;
+    background-color: #098c8c;
+}
+
+.menuu{
+    width: 3em;
+    height: 43px;
+    float: right;
+    margin-right: 3em;
+    margin-top: 8px ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    background: white;
+    color: #026364;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    border-bottom: 2px solid #009EA0;
+    text-align: center;
+    padding: 10px;
+}
+
+section h2{
+    padding-top: 1em;
+}
+
+.peta{
+    font-weight: bold;
+}
+
+section{
+    padding-top: 3em;
+}
+
+section > p{
+    padding-top: 1em;
+}
+
+
+.map-container {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-top: 0.5em;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 2em;
+    color: #717272;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #065757;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    color: #065757;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+li span {
+    color: #065757;
+}
+
+footer{
+    margin-top: 5em;
+    margin-left: 1px;
+    margin-bottom: 1em;
+    background-color: white;
+    border:1px solid #717272;
+    border-left: none;
+    border-right: none;
+    width: 1258px;
+    height: 26em;
+}
+.isi_artikel_footer{
+    margin-left: 5em;
+}
+.jdl_artikel_footer{
+    font-weight: bold;
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.jdl_artikel_footer1{
+    font-weight: bold;
+    margin-top: 6em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+.isi_artikel_footer1{
+    margin-left: 19em;
+    margin-top: -2em;
+}
+.jdl_artikel_footer2{
+    float: right;
+    margin-right: 473px;
+    margin-top: -14em;
+}
+.isi_artikel_footer2{
+    float: right;
+    margin-top: -12em;
+    margin-right: 27em;
+}
+.zero_bawah{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 15px;
+
+}
+.isi_artikel_footer3{
+    float: right;
+    margin-top: -14em;
+    margin-right: 17em;
+
+}
+.jdl_artikel_footer3{
+    font-weight: bold;
+    float: right;
+    margin-right: 21em;
+    margin-top: -16em;
+}
+.masukkan_email_bawah{
+    background-color: rgb(226, 226, 226);
+    display: table;
+    width: 12em;
+    height: 2em;
+    line-height: 3em;
+    padding-left: 1em;
+    margin-left: 45em;
+    margin-top: -3em;
+    color: rgb(139, 138, 138);
+}
+.untuk_tombol_nya{
+    color: white;
+    background-color: #009EA0;
+    display: table;
+    padding: 13px 15px;
+    border-radius: 7px;
+    float: right;
+    margin-right: 10em;
+    margin-top: -3em;
+}
+.copyright{
+    text-align: center;
+    padding-top: 3em;
+}
